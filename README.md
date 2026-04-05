@@ -246,7 +246,7 @@ graph LR
 ```bash
 # Clone the repository
 git clone https://github.com/AVargas-C/park_sense.git
-cd parksense
+cd park_sense
 
 # Fetch submodules:
 git submodule sync --recursive
