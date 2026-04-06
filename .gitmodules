@@ -1,3 +1,46 @@
-[submodule "firmware/libs/STM32CubeU5"]
-	path = firmware/libs/STM32CubeU5
-	url = https://github.com/STMicroelectronics/STM32CubeU5.git
+# ── U585 application firmware ──────────────────────────────────────────────
+[submodule "firmware/libs/CMSIS_6"]
+	path = firmware/libs/CMSIS_6
+	url  = https://github.com/ARM-software/CMSIS_6.git
+
+[submodule "firmware/libs/cmsis-device-u5"]
+	path = firmware/libs/cmsis-device-u5
+	url  = https://github.com/STMicroelectronics/cmsis-device-u5.git
+
+[submodule "firmware/libs/stm32u5xx-hal-driver"]
+	path = firmware/libs/stm32u5xx-hal-driver
+	url  = https://github.com/STMicroelectronics/stm32u5xx-hal-driver.git
+
+[submodule "firmware/libs/stm32-vl53l5cx"]
+	path = firmware/libs/stm32-vl53l5cx
+	url  = https://github.com/STMicroelectronics/stm32-vl53l5cx.git
+
+[submodule "firmware/libs/stm32-iis2mdc"]
+	path = firmware/libs/stm32-iis2mdc
+	url  = https://github.com/STMicroelectronics/stm32-iis2mdc.git
+
+[submodule "firmware/libs/stm32-mx-wifi"]
+	path = firmware/libs/stm32-mx-wifi
+	url  = https://github.com/STMicroelectronics/stm32-mx-wifi.git
+
+# ── WB5MM relay firmware ────────────────────────────────────────────────────
+[submodule "firmware/libs/cmsis-device-wb"]
+	path = firmware/libs/cmsis-device-wb
+	url  = https://github.com/STMicroelectronics/cmsis-device-wb.git
+
+[submodule "firmware/libs/stm32wbxx-hal-driver"]
+	path = firmware/libs/stm32wbxx-hal-driver
+	url  = https://github.com/STMicroelectronics/stm32wbxx-hal-driver.git
+
+[submodule "firmware/libs/stm32wb5mm-dk-bsp"]
+	path = firmware/libs/stm32wb5mm-dk-bsp
+	url  = https://github.com/STMicroelectronics/stm32wb5mm-dk-bsp.git
+
+[submodule "firmware/libs/stm32-mw-wpan"]
+	path = firmware/libs/stm32-mw-wpan
+	url  = https://github.com/STMicroelectronics/stm32-mw-wpan.git
+
+# ── Tests ───────────────────────────────────────────────────────────────────
+[submodule "firmware/test/unity"]
+	path = firmware/test/unity
+	url  = https://github.com/ThrowTheSwitch/Unity.git
